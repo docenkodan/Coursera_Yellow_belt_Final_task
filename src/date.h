@@ -19,7 +19,7 @@ private:
 Date ParseDate(std::istream& is);
 
 std::ostream& operator<< (std::ostream& stream, const Date& date);
-string DateToString (const Date& date);
+std::string DateToString (const Date& date);
 
 bool operator<(const Date& lhs, const Date& rhs);
 bool operator>(const Date& lhs, const Date& rhs);

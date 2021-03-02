@@ -2,6 +2,8 @@
 
 #include <iomanip>
 
+using namespace std;
+
 Date::Date (const int& new_year, const int& new_month,
 		const int& new_day) {
 	year = new_year;

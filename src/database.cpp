@@ -2,6 +2,8 @@
 
 #include <algorithm>
 
+using namespace std;
+
 void Database::Add(const Date& date, const string& event) {
 	auto p = s_date_to_events[date].insert(event);
 	if (p.second) {
